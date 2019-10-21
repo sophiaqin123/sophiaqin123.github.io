@@ -1,0 +1,422 @@
+header {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.bg {
+    background: url("https://i.imgur.com/5qNkqBp.png") no-repeat;
+    background-size: cover;
+
+}
+.view-details {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.recipe-img {
+    position: relative;
+    display: inline-block;
+}
+
+.cart {
+    display: flex;
+    position: relative;
+    align-items: center;
+    text-align: right;
+}
+
+.cart img.cart-icon {
+    margin-left: 30px;
+    width: 30px;
+    margin-right:10px;
+}
+
+.cart img {
+    width: 200px;
+}
+
+.cart-link {
+    padding: 5px;
+}
+
+
+/*********** HEADER ************/
+
+header {
+    text-align: left;
+    padding: 10px;
+    background-color: teal;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1em;
+}
+
+h1 {
+    margin: 0;
+}
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+/*********** LISTS ************/
+
+
+.list {
+    padding: 7px;
+    margin-bottom: 7px;
+    /*background-color: #eeeeee;
+    border: 1px solid #cccccc;*/
+}
+
+.list-title {
+    margin-left: 20px;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+header a {
+    padding: 15px 15px;
+}
+
+header a:hover:not(.active) {
+    /*background-color: #A29263;*/
+/*    text-decoration: underline;*/
+    border-bottom: 3px solid black;
+}
+
+/***********GRID ***********/
+header, footer {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    min-width: 1080px;
+}
+
+h2 {
+    grid-area: right;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 430px 430px;
+    grid-template-rows: repeat(2, 290px);
+    grid-gap: 10px;
+    margin-top: 44px;
+    grid-auto-rows: 600px;
+    justify-items: start;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    grid-auto-rows: 500px;
+    grid-auto-flow: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-family: Work Sans;
+    font-size: 34px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #525252;
+    padding: 10px 0px 10px 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.imagesmall {
+    width:15%;
+}
+
+.imagefrosting {
+    width:100%;
+}
+.recipe {
+    width: 380px;
+
+}
+
+.container {
+    min-width: 500px;
+    margin: auto;
+}
+
+footer {
+    margin-top: 44px;
+}
+
+/*********** PRODUCT DETAIL ************/
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px 20px;
+}
+.column checkout {
+    float: right;
+    width: 50%;
+    padding: 10px 20px;
+}
+
+.left {
+  width: 70%;
+  border-radius: 25px; 
+}
+
+.right {
+  width: 25%;
+  float:right;
+  border-radius: 25px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Button*/
+
+.button-absolute {
+    position: absolute;
+    bottom: 27px;
+    right: 20px;
+}
+
+.button2-absolute {
+    position: absolute;
+    bottom: 27px;
+    right: 150px;
+}
+
+.view-details {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.button {
+    background-color: #A29263; /* Brown */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.buttonp {
+  background-color: #A29263; /* Brown */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  float: left;
+  border-radius: 30px;
+  top: 398px;
+  right:243px;
+  position:absolute;
+}
+
+.button2 {
+    background-color: #B34524; /*red*/
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+body {
+    height: 400px;
+    top: 10px;
+    left: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#btn {
+  display:block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 1px solid red;
+  
+}
+
+#sugarmilk {
+  background-color: #bbc3cc; /* Brown */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+#vanillamilk {
+  background-color: #cebcac; /* Brown */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+#doublechocolate {
+   background-color: #4a382d; /* Brown */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 30px;
+ 
+}
+
+#none {
+   background-color: black; /* Brown */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+#none:hover, #vanillamilk:hover, #doublechocolate:hover, #sugarmilk:hover {
+    background-color:chocolate;
+    cursor:pointer;
+}
+
+.labelForTextbox {
+  display: block;
+  margin-bottom: 18px; /** Change this value to whatever you wish **/
+}
+
+.textunder {
+    display:block;
+    width:50%;
+    text-align: center;
+}
+/*********** CART ************/
+.product {
+    
+}
+
+#notification .p1[data-count]:after{
+  position:absolute;
+  right:13%;
+  top:4%;
+  content: attr(data-count);
+  font-size:50%;
+  padding:.3em;
+  border-radius:50%;
+  line-height:1em;
+  color: white;
+  background:rgba(255,0,0,.85);
+  text-align:center;
+  min-width: 1em;
+  //font-weight:bold;
+}
+
+.product-image {
+    float:left;
+    width:35%;
+    padding: 10px 20px
+}
+
+.product-details {
+    float:left;
+    width:37%;
+}
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+#myheader {
+    padding: 10px 40px
+}
+#bold {
+    font-size: 19px;
+}
+
+ul :hover {
+  background-color: chocolate;
+    color:white;
+}
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  right: 31%;
+    top:34%;
+  padding: 12px 16px;
+  transform: translate(0%, -50%);
+/*  border: 2.3px solid #ddd;*/
+  border-radius: 25px;
+    background-color: white;
+}
+
+.pricetitle{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.nobottom {
+    margin-bottom:0!important;
+}
