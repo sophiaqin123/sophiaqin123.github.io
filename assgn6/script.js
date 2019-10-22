@@ -1,39 +1,48 @@
 // Code inspiration from web dev simplified
 
-function changeImage() {
-    var image = document.getElementById('myImage');
-    
+let cart = [];
 
+//image changes based on frosting selection
+function selectFrosting(frostingType) {
+    let image = document.getElementById('myImage');
+    if (frostingType === 'vanillamilk') {
+        image.src = 'https://i.imgur.com/uJV8q4S.png';
+    } else if (frostingType === 'sugarmilk') {
+        image.src = 'https://i.imgur.com/8xbQc3W.png';
+    } else if (frostingType === 'doublechocolate') {
+        image.src = 'https://i.imgur.com/OWVXQ04.png';
+    } else if (frostingType === 'none') {
+        image.src = 'https://i.imgur.com/ApshmOO.png';
+    }
 
+    let frostingButtons = document.getElementById('frostings');
+    Array.from(frostingButtons.children).forEach(button => {
+        button.classList.remove('active');
+    });
 
-
+    let button = document.getElementById(frostingType);
+    button.classList.add('active')
 }
 
-
-
-
-
-var removeCartButton = document.getElementsByClassName("close")
-
-console.log(removeCartButton);
-
-// Remove cart item
-for (var i=0; i < removeCartButton.length;i++) {
-    var button = removeCartButton[i]
-    button.addEventListener('click',function() {
-        console.log('clicked')
-        var buttonClicked = event.target
-        buttonClicked.parentElement.parentElement.remove()
-        updateCartTotal()
-        
-    })
+//add quant to cart
+function addToCart(item) {
+    let quantityInput = document.getElementById('quantity-input');
+    let quantity = parseInt(quantityInput.value);
+    for (let i = 0; i < quantity; i++) {
+        cart.push(item);
+    }
+    updateBadge();
 }
 
-//update cart total
-function updateCartTotal() {
-    var cartItemContainer = document.getElementsByClassName("column left")[0] //crt item
-    cartItemContainer.getElementsByClassName('product-details')
-    for (var i=0; i < cartRows.length;i++) {
-    var cartRows = cartRows[i]
-    var priceElement = cartRow.getElementsByClassName('cart-price')
+//Red notification updates with quanitity
+function updateBadge() {
+    let badge = document.getElementById('shopping-cart-badge');
+    let notification = document.getElementById('notification');
+    if (cart.length) {
+        badge.setAttribute('data-count', cart.length);
+        notification.style.display = 'inline-block';
+    } else {
+        notification.style.display = 'none';
+    }
 }
+
