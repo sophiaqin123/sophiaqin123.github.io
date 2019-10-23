@@ -188,8 +188,15 @@ footer {
   border-radius: 25px;
 }
 
+.again {
+    margin-left:16px;
+    margin-right:16px;
+    width: 70%;
+    border-radius: 25px;
+}
+
 .right {
-  width: 25%;
+  width: 23%;
   float:right;
   border-radius: 25px;
 }
