@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Koalas</title>
+    <!--CSS-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/materialize.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="siteWrapper" style="overflow: hidden;">
+    <main>
+        <!--NAV BAR-->
+        <div class="navbar-fixed">
+            <nav id="top-nav" class="ease-2 nav-transparent">
+                <div class="nav-wrapper">
+                    <a id="nav-home" href="#" class="ease-2 logo" style="
+                       padding: inherit;
+                       margin-left: 27px;">
+                        <div class="logogif">
+                            <img src="img/logo.gif" style=
+                            "width:30%;
+                            top:5px;"
+                            >
+                        </div>
+                    </a>
+                    <a id="mobileToggle" href="#" data-target="nav-mobile"
+                       class="ease-2 sidenav-trigger">
+                        <i id="mobileToggleIcon" class="large material-icons">menu</i>
+                    </a>
+                    <ul id="nav-desktop" class="ease-2-transform table-of-contents">
+                        <li><a class="desktopAnchor" id="home-button" href="#home">Introduction</a>
+                        </li>
+                        <li><a class="desktopAnchor" id="skills-button" href="#skills">About</a>
+                        </li>
+                        <li><a class="desktopAnchor" href="#status">Status</a></li>
+                        <li><a class="desktopAnchor" href="#behavior">Behavior</a></li>
+                        <li><a class="desktopAnchor" href="#diet">Diet</a></li>
+                        <li><a class="desktopAnchor" href="#funfacts">Facts</a></li>
+                        <li><a class="desktopAnchor" href="#impact">Our Imapct</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <ul id="nav-mobile" class="sidenav didot table-of-contents">
+            <li><a class="mobileAnchor" href="#home">Introduction</a></li>
+            <li><a class="mobileAnchor" href="#skills">About</a></li>
+            <li><a class="mobileAnchor" href="#status">Status</a></li>
+            <li><a class="mobileAnchor" href="#behavior">Behavior</a></li>
+            <li><a class="mobileAnchor" href="#diet">Diet</a></li>
+            <li><a class="mobileAnchor" href="#funfacts">Facts</a></li>
+            <li><a class="mobileAnchor" href="#impact">Our Impact</a></li>
+        </ul>
+
+        <!--KOALAS // INTRO-->
+        <div id="home" class="scrollspy hero">
+            <div class="hero parallax-container" style="height: 100vh!important;">
+                <div class="parallax"><img class="hero-img" src="img/koala bg.png">
+                </div>
+            </div>
+            <div class="hero-container container ease-2">
+                <div class="hero-title-container wow fadeInLeft">
+                    <div class="hero-subtitle-1">Intro -</div>
+                    <div class="hero-title">KOALAS</div>
+                    <div class="hero-subtitle-2">Koalas, often mistakenly called “koala bears” are
+                    short, cute, cuddly marsupials, which means a pouched animal. I was inspired to create this site to celebrate the lives of these beautiful creatures, as well as educate others about their decreasing population.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- THE MARSUPIAL // ABOUT -->
+        <div id="skills" class="scrollspy responsive">
+            <div class="parallax-container">
+                <!--Separate koala images-->
+                <div class="koalaimage">
+                    <img src="img/the marsupial object.png"
+                         style="width:70%;">
+                </div>
+                <div class="koalaleaves">
+                    <img src="img/leaf.png" 
+                           style="width: 40%;
+                             right: 650px;
+                             z-index: 1;
+                             top:500px;
+                             position: absolute;">
+                </div> 
+                <!--Description-->
+                <div class="hero-container-right container ease-2">
+                    <div class="hero-title-container wow fadeInLeft">
+                        <div class="center-align didot">
+                            <div class="hero-subtitle-1">About -</div>
+                            <div class="hero-title">THE MARSUPIAL</div>
+                            <div class="hero-subtitle-2">Koalas, or Phascolarctos cinereus, are
+                                herbivores and they live inside its mother’s belly for about 6
+                                months, and rides on its mother’s back or belly until they are about
+                                a year old. They are 20 pounds on average and they have six
+                                opposable thumbs. Most koalas live in eucalyptus trees in Australia,
+                                however, because of urbanization, which causes habitat destruction,
+                                many koalas are dying.
+                            </div>
+                        </div>
+                        <!--Icons-->
+                        <div class="valign-wrapper mb-0i row pt-1 pb-1">
+                            <div class="center-9">
+                               <!--Food Icon-->
+                                <div class="col s12 m6 mt-1_5 mb-1_5">
+                                    <p class="white-text">FOOD</p>
+                                    <img class="icon" src="img/food icon.png">
+                                    <h5 class="white-text">Leaves</h5>
+                                    </div>
+                                <!--Life Span Icon-->
+                                <div class="col s12 m6 mt-1_5 mb-1_5">
+                                    <p class="white-text">LIFESPAN</p>
+                                    <img class="icon" src="img/lifespan icon.png">
+                                    <h5>20 years</h5>
+                                </div>
+                            </div>
+                            <div class="center-9">
+                                <!--Size Icon-->
+                                <div class="col s12 m6 mt-1_5 mb-1_5">
+                                    <p class="white-text">SIZE</p>
+                                    <img class="icon"
+                                    src="img/size icon.png">
+                                    <h5>3 feet</h5>
+                                </div>
+                                <!--Sleep Icon-->
+                                <div class="col s12 m6 mt-1_5 mb-1_5">
+                                    <p class="white-text">SLEEP</p>
+                                    <img class="icon" src="img/sleep icon.png">
+                                   <h5>16 hrs</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Background Image-->
+                <div class="parallax lighten"><img src="img/The marsupial bg.png"
+                 style="transform: translate3d(-50%, 325px, 0px);">
+                </div>
+                <div class="pb-5"></div>
+            </div>
+        </div>
+
+        <!--ARE THEY ENDANGERED // STATUS-->
+        <div id="status" class="scrollspy responsive">
+           <div class="hero-container container ease-2">
+                    <div class="hero-title-container wow fadeInLeft">
+                        <div class="center-align didot">
+                            <div class="hero-subtitle-1">Status -</div>
+                            <div class="hero-title">ARE THEY ENDANGERED?</div>
+                            <div class="hero-subtitle-2">Koalas are not endangered, but their population is functionally extinct - meaning they no longer have an impact on the ecosystem. Recently, bushfires across the eastern coast of Australia have potentially killed hundreds of koalas. Koalas, for a long time, have dealt with land clearing, development, and global warming which causes them to migrate or die. This increases inbreeding and disease, which reduces the genetic diversity of these creatures.
+                            </div>
+                        </div>
+                        <button class="button"><a href="https://www.savethekoala.com/about-koalas/koala-endangered-or-not"><p>LEARN ABOUT THEIR STATUS</p></button></a>
+                    </div>
+                </div>
+            <div class="parallax-container">
+               
+                <!-- Separate Koala Images-->
+                <!-- Fire top-->
+<!--
+                <div class="koalafiretop">
+                    <img src="img/fire.png" style="position: absolute;
+                       width: 50%;
+                       right: 50px;
+                       top: 280px;">
+                </div>
+-->
+                <!-- Koala on branch-->
+                <div class="koalaimageright wow fadeInLeft">
+                    <img src="img/fire koala.png">
+                </div>
+                <!-- Fire bottom-->
+<!--
+                <div class="koalafirebottom">
+                    <img src="img/fire.png" 
+                         style= "position: absolute;
+                          width: 30%;
+                          right: 100px;
+                          top: 520px;">
+                </div>
+-->
+                <!-- Background Image-->
+                <div class="parallax lighten"><img src="img/are they endangered.png"
+                style="transform: translate3d(-50%, 325px, 0px);">
+                </div>
+            </div>
+        </div>
+
+<!-- KOALA AND LEAF FOREGROUND SEPARTE IMAGES THROUGHOUT WEBSITE-->
+       
+        <!--Leaf on top of branch koala-->
+        <div class="koalaleaves">
+            <img src="img/leaf.png" 
+                 style=
+                 "width: 40%;
+                  top: 3000px;
+                  z-index: 0;
+                  transform: rotate(180deg);
+                  position: absolute;">
+        </div>
+        <!-- Upside down koala on branch // Eating eucaplyptus leaves-->
+        <div class="koalabranchupsidedown">
+            <img class="wow fadeInLeft" src="img/koala upside down branch.png" 
+                 style=
+                 "width: 70%;
+                  top: calc(100vh + 3 * 800px); 
+                  right: 800px;
+                  z-index: 1;
+                  position: absolute;">
+        </div>
+        <!--Symmetric leaf left side on koala // Facts and Eating Eucalyptus Leaves-->
+        <div class="koalaleaf">
+            <img src="img/leaf symmetric.png" 
+                 style=
+                 "width: 26%;
+                  top: calc(55vh + 4 * 800px);
+                  right: 1000px;
+                  z-index: 1;
+                  position: absolute;">
+        </div>
+
+        <!--Symmetric leaf on top branch // Eating Eucaplyptus Leaves-->
+        <div class="koalaleafonbranch">
+            <img src="img/leaf symmetric.png" 
+                 style=
+                 "width: 20%;
+                  top: calc(2vh + 4.5 * 800px);
+                  right: 100px;
+                  transform:rotate(90deg);
+                  z-index: 2;
+                  position: absolute;">
+        </div>
+
+        <!-- Symmetric leaf on bottom branch // Our Impact-->
+        <div class="koalaleafonbottombranch">
+            <img src="img/leaf symmetric.png" 
+                 style=
+                 "width: 19%;
+                  top: calc(98vh + 5 * 800px);
+                  right: 0px;
+                  transform:rotate(90deg);
+                  z-index: 2;
+                  position: absolute;">
+        </div>
+        
+        <!-- Leaf top in front of the fire Koala // Are they Endangered-->
+        <div class="koalaleafonfirekoala">
+            <img src="img/leaf symmetric.png" 
+                 style=
+                 "width: 24%;
+                  top: calc(95vh + 1 * 800px);
+                  right: 350px;
+                  transform:rotate(90deg);
+                  z-index: 2;
+                  position: absolute;">
+        </div>
+        
+        <!-- Koala hold branch // Facts-->
+        <div class="koalabranch">
+            <img src="img/the marsupial object.png" 
+                 style=
+                 "width: 42%;
+                  top: calc(70vh + 4 * 800px);
+                  right: 0px;
+                  z-index: 1;
+                  transform: scaleX(-1);
+                  position: absolute;">
+        </div>
+
+        <!-- BEHAVIOR // SLEEPING -->
+        <div id="behavior" class="scrollspy responsive">
+            <div class="parallax-container">
+                <div class="hero-container container ease-2 wow fadeInLeft">
+                    <div class="hero-title-container">
+                        <div class="hero-subtitle-1">Behavior -</div>
+                        <div class="hero-title">SLEEPING 18 HRS A DAY</div>
+                        <div class="hero-subtitle-2">Koalas rarely leave the Eucalyptus trees
+                            they sleep on as they spend 18 hours of the day dozing. Koalas need
+                            a lot of space - about a hundred trees per animal - which is a big
+                            problem as Australian woodlands continue to shrink. Koalas, when
+                            awake, can be ferocious as they growl and bite, when they are being
+                            captured.
+                        </div>
+                    </div>
+                </div>
+                <div class="parallax lighten">
+                    <!--Background Image-->
+                    <img src="img/sleep.png"
+                     style="transform: translate3d(-50%, 325px, 0px);">
+                </div>
+            </div>
+        </div>
+
+        <!-- DIET // EATING EUCAPLYPTUS LEAVES -->
+        <div id="diet" class="scrollspy responsive">
+            <div class="parallax-container">
+                <!--Leaf on top of branch koala-->
+                <div class="koalaleaves">
+                    <img src="img/leaf symmetric.png" 
+                         style=
+                         "width: 35%;
+                          right:0px;
+                          z-index: 1;
+                          transform: rotate(180deg);
+                          position: absolute;">
+                </div>
+                <div class="hero-container-right container ease-2">
+                    <div class="hero-title-container wow fadeInLeft">
+                        <div class="hero-subtitle-1">Diet -</div>
+                        <div class="hero-title">EATING EUCALYPTUS LEAVES</div>
+                        <div class="hero-subtitle-2">When they are not sleeping, they eat
+                            eucalyptus leaves and do not drink much water because they get most
+                            of their moisture from the leaves. They eat two and a half pounds of
+                            leaves a day, and even store them in their cheeks to snack on them
+                            later on. Their long gut allows koalas to be unharmed by the poison
+                            of the leaves, and they even smell like cough drops, because they
+                            eat so many leaves.
+                        </div>
+                    </div>
+                </div>
+                <!--Background Image-->
+                <div class="parallax lighten"><img src="img/eating eucalyptus leaves bg.png"
+                     style="transform: translate3d(-50%, 325px, 0px);">
+                </div>
+            </div>
+        </div>
+
+        <!-- KOALAS HAVE POUCHES // FACTS -->
+        <div id="funfacts" class="scrollspy responsive">
+            <div class="parallax-container">
+                <div class="hero-container container ease-2 wow fadeInLeft">
+                    <div class="hero-title-container">
+                        <div class="hero-subtitle-1">Facts -</div>
+                        <div class="hero-title">THEY HAVE POUCHES</div>
+                        <div class="hero-subtitle-2">
+
+                            <ul class="custom-list">
+                                <li>Female koalas have two vaginas - one for sperm and the other
+                                    one for birth. Similarly, male koalas have two prongs for
+                                    their penises.
+                                </li>
+                            </ul>
+                            <ul class="custom-list-2">
+                                <li>About 90% of Koalas have chlamydia, but it is different from
+                                    the STD humans get. Koalas can pass on chlamydia through
+                                    mating and birth which can cause blindness, infertility, and
+                                    even death.
+                                </li>
+                            </ul>
+                            <ul class="custom-list-3">
+                                <li>Baby koalas, or joeys, eat their mother’s poop. The poop
+                                    pellets are followed by a runny, protein rich substance
+                                    called pap which helps the baby grow.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="parallax lighten"><img src="img/they_have_pouches.png"
+                     style="transform: translate3d(-50%, 325px, 0px);">
+                </div>
+            </div>
+        </div>
+
+        <!-- HOW WE CAN HELP KOALAS // IMPACT -->
+        <div id="impact" class="scrollspy responsive">
+            <div class="parallax-container">
+               <div class="hero-container-right container ease-2">
+                <div class="hero-title-container wow fadeInLeft">
+                    <div class="hero-subtitle-1">Impact -</div>
+                    <div class="hero-title">HOW WE CAN HELP KOALAS</div>
+                    <div class="hero-subtitle-2">Koala population is on the decline, as
+                        evidenced in recent news that a wildfire broke out in Lake Innes
+                        Nature Reserve, a critical koala habitat. Hospitals estimate 350
+                        koalas have died, and it will be hard to recover because koalas have
+                        a slow breeding time. Because Koalas constantly migrate across
+                        streets in urban areas as their habitats are being destroyed, we
+                        should be wary not to hit them when driving at night. If you live in
+                        a koala area, make sure to plant eucalyptus trees and to donate to
+                        koala protection organizations.
+                    </div>
+                     <button class="button"><a href="https://www.savethekoala.com/donate"><p>LEARN HOW TO SAVE KOALAS</p></button></a>
+                </div>
+                
+            </div>
+                <!-- Background Image-->
+                <div class="parallax lighten"><img src="img/impact bg.png"
+                     style="transform: translate3d(-50%, 325px, 0px);">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="center pt-1 pb-1">
+        © 2019 Designed and Coded by Sophia Qin
+    </footer>
+</div>
+
+<!--LIBRARY SCRIPT LOADING-->
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script type="text/javascript" src="js/detectmobile.min.js"></script>
+<!--CUSTOM SCRIPT LOADING-->
+<script type="text/javascript" src="js/init.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
