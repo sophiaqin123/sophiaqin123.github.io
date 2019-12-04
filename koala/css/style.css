@@ -96,11 +96,6 @@ iframe {
 }
 
 /*SEP KOALA IMG*/
-.koalaimage {
-    position:absolute;
-    width:50%;
-}
-
 koalaleaves {
     width: 100%;
     right: 700px;
@@ -115,12 +110,42 @@ koalaleaves {
     top:70px;
 }
 
-koalaleavesright {
+.koalaleavesright {
     width: 100%;
     right: 700px;
     z-index: -1;
     position: absolute;
 }
+
+.koala1 {
+    height: 1000px;
+    position: absolute;
+    top: -1px;
+    left: -35px;
+    transform: scaleX(-1);
+}
+
+.koala2 {
+    height: 800px;
+    position: absolute;
+    bottom: -245px;
+    right: -50px;
+}
+
+.koala3 {
+    height: 1100px;
+    position: absolute;
+    top: -900px;
+    left: -300px;
+}
+
+.koala4 {
+    height: 1100px;
+    position: absolute;
+    top: 0px;
+    right: -200px;
+}
+
 
 /*Custom List on Facts*/
 /*VAGINA*/
@@ -264,7 +289,13 @@ hr:after {
     position: absolute;
 /*    right: 0;*/
     width: 450px;
-    height: 200px;
+    /*height: 200px;*/
+}
+
+.hero-centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hero-title {
@@ -596,7 +627,7 @@ hr:after {
         width: 100%;
     }
 
- 
+
 
     .parallax-container {
         height: 800px !important;
@@ -633,7 +664,19 @@ hr:after {
     margin-top: 60px;
 }
 
-
+    .koala4 {
+        display:none;
+    }
+    
+    .koala3 {
+        display:none;
+    }
+    .koala2 {
+        display:none;
+    }
+    .koala1 {
+        display:none;
+    }
     .koalaimageright {
     position: absolute;
     right: 300px;
@@ -683,6 +726,19 @@ hr:after {
     width: 30%;
 }
 
+    .koala4 {
+        display:none;
+    }
+    
+    .koala3 {
+        display:none;
+    }
+    .koala2 {
+        display:none;
+    }
+    .koala1 {
+        display:none;
+    }
 }
 
 /* Ease */
