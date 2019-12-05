@@ -122,7 +122,7 @@ koalaleaves {
     position: absolute;
     top: -1px;
     left: -35px;
-    transform: scaleX(-1);
+/*    transform: scaleX(-1);*/
 }
 
 .koala2 {
@@ -630,8 +630,9 @@ hr:after {
 
 
     .parallax-container {
-        height: 800px !important;
+/*        height: 800px !important;*/
         background-color:#201117;
+/*        height: calc(1.285 * (90vw - 4rem));*/
     }
 
 
@@ -639,30 +640,41 @@ hr:after {
     .hero-title {
         font-size: 10vh
     }
-
+/*
+.align-wrapper {
+        min-width: unset;
+    }
+*/
 
 
     .logo {
         transition: none !important;
     }
 
-
+    .scrollspy responsive {
+        top:40px;
+    }
 
     .hero-title-container {
         width: auto;
+        margin-left:15px;
+        top:30px;
     }
 
     .hero-container {
-        top: 20%;
+        top: 40%;
         height: 100vh !important;
     }
 
+/*
     .hero-container-right {
     position: initial;
     width: 90% !important;
     margin-left: 100px;
     margin-top: 60px;
+    top:-90px;
 }
+*/
 
     .koala4 {
         display:none;
@@ -677,16 +689,18 @@ hr:after {
     .koala1 {
         display:none;
     }
-    .koalaimageright {
-    position: absolute;
-    right: 300px;
-    top: 99px;
-    width: 30%;
+    .hero-subtitle-1 {
+    margin-top: 100px;
+ 
 }
 
-    .koalafiretop {
-        top:200px;
-        display:none;
+    .hero parallax-container {
+        height: 110vh!important;
+        top:-90px;
+    }
+    
+    .hero-title {
+        font-size:7vh;
     }
 
 }
@@ -735,6 +749,10 @@ hr:after {
     }
     .koala2 {
         display:none;
+/*
+        top:600px;
+        height:200px;
+*/
     }
     .koala1 {
         display:none;
